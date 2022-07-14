@@ -69,6 +69,9 @@
   <ItemGroup>
     <Content Include="Content\CSS\Common.css" />
     <Content Include="Content\Images\background1.jpeg" />
+    <Content Include="DataControlExample.aspx" />
+    <Content Include="DataControlExample2.aspx" />
+    <Content Include="DataControlExample3.aspx" />
     <Content Include="FrmValidationExample.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="Laptop.aspx" />
@@ -76,6 +79,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataControlExample.aspx.cs">
+      <DependentUpon>DataControlExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataControlExample.aspx.designer.cs">
+      <DependentUpon>DataControlExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataControlExample2.aspx.cs">
+      <DependentUpon>DataControlExample2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataControlExample2.aspx.designer.cs">
+      <DependentUpon>DataControlExample2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataControlExample3.aspx.cs">
+      <DependentUpon>DataControlExample3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataControlExample3.aspx.designer.cs">
+      <DependentUpon>DataControlExample3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmValidationExample.aspx.cs">
       <DependentUpon>FrmValidationExample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
