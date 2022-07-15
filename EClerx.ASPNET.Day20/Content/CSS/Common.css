@@ -3,7 +3,7 @@
     min-width:70%;
     min-height:80%;
     width:90%;
-    height:700px;
+    height:auto;
     /*background-color:#5ba985;*/
     border:1px solid;
 }
@@ -16,7 +16,8 @@
 
 .sideBar{
     width:20%;
-    height:490px;
+    min-height:490px;
+    height:auto;
     /*background-color:#ff6a00;*/
     float:left;
     /*border-right:1px solid;*/
@@ -24,7 +25,8 @@
 
 .content{
     width:80%;
-    height:500px;
+    min-height:500px;
+    height:auto;
     /*background-color:#4d74db;*/
     float:right;
 }

@@ -67,15 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\RedTheme\RedCSS.css" />
     <Content Include="Content\CSS\Common.css" />
+    <Content Include="Content\CSS\Product.css" />
     <Content Include="Content\Images\background1.jpeg" />
     <Content Include="DataControlExample.aspx" />
     <Content Include="DataControlExample2.aspx" />
     <Content Include="DataControlExample3.aspx" />
+    <Content Include="DataControlExample4.aspx" />
+    <Content Include="DataControlExample5.aspx" />
+    <Content Include="Fans.aspx" />
+    <Content Include="FrmAddNewProduct.aspx" />
     <Content Include="FrmValidationExample.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="Laptop.aspx" />
+    <Content Include="MenuControlExample.aspx" />
     <Content Include="MobilePhone.aspx" />
+    <Content Include="NavigationControlExample.aspx" />
+    <Content Include="Pen.aspx" />
+    <Content Include="SmartWatch.aspx" />
+    <Content Include="Television.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +111,34 @@
     <Compile Include="DataControlExample3.aspx.designer.cs">
       <DependentUpon>DataControlExample3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DataControlExample4.aspx.cs">
+      <DependentUpon>DataControlExample4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataControlExample4.aspx.designer.cs">
+      <DependentUpon>DataControlExample4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataControlExample5.aspx.cs">
+      <DependentUpon>DataControlExample5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataControlExample5.aspx.designer.cs">
+      <DependentUpon>DataControlExample5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fans.aspx.cs">
+      <DependentUpon>Fans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fans.aspx.designer.cs">
+      <DependentUpon>Fans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddNewProduct.aspx.cs">
+      <DependentUpon>FrmAddNewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmAddNewProduct.aspx.designer.cs">
+      <DependentUpon>FrmAddNewProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmValidationExample.aspx.cs">
       <DependentUpon>FrmValidationExample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,12 +160,33 @@
     <Compile Include="Laptop.aspx.designer.cs">
       <DependentUpon>Laptop.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MenuControlExample.aspx.cs">
+      <DependentUpon>MenuControlExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuControlExample.aspx.designer.cs">
+      <DependentUpon>MenuControlExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MobilePhone.aspx.cs">
       <DependentUpon>MobilePhone.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MobilePhone.aspx.designer.cs">
       <DependentUpon>MobilePhone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationControlExample.aspx.cs">
+      <DependentUpon>NavigationControlExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NavigationControlExample.aspx.designer.cs">
+      <DependentUpon>NavigationControlExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pen.aspx.cs">
+      <DependentUpon>Pen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pen.aspx.designer.cs">
+      <DependentUpon>Pen.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
@@ -136,8 +196,23 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="SmartWatch.aspx.cs">
+      <DependentUpon>SmartWatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SmartWatch.aspx.designer.cs">
+      <DependentUpon>SmartWatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Television.aspx.cs">
+      <DependentUpon>Television.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Television.aspx.designer.cs">
+      <DependentUpon>Television.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\BlueTheme\BlueSkin.skin" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -146,8 +221,17 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{3619e96d-2f4d-4da2-aeb1-bb96a40f36d0}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Themes\YellowTheme\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

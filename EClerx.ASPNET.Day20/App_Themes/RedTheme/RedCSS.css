@@ -1,0 +1,9 @@
+﻿input[type=text], select {
+    background-color: red;
+    color: white;
+}
+
+div{
+    background-color:black;
+    color:white;
+}

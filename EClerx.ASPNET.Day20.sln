@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EClerx.ASPNET.Day20", "EClerx.ASPNET.Day20\EClerx.ASPNET.Day20.csproj", "{F5761412-031E-4D58-BFBB-1306C246E8BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3619E96D-2F4D-4DA2-AEB1-BB96A40F36D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F5761412-031E-4D58-BFBB-1306C246E8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5761412-031E-4D58-BFBB-1306C246E8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5761412-031E-4D58-BFBB-1306C246E8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3619E96D-2F4D-4DA2-AEB1-BB96A40F36D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3619E96D-2F4D-4DA2-AEB1-BB96A40F36D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3619E96D-2F4D-4DA2-AEB1-BB96A40F36D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3619E96D-2F4D-4DA2-AEB1-BB96A40F36D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,5 @@
+﻿
+        <asp:TextBox runat="server" ForeColor="Blue"  Font-Size="16px" />
+        <asp:FileUpload runat="server" ForeColor="Blue"  Font-Size="16px"/>
+        <asp:DropDownList runat="server" ForeColor="Blue"  Font-Size="16px"/>
+        <asp:Button ForeColor="Blue" runat="server"  Font-Size="16px"/>

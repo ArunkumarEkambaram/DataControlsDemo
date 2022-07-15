@@ -1,26 +1,17 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EClerx.ASPNET.Day20.Site1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NavigationControlExample.aspx.cs" Inherits="EClerx.ASPNET.Day20.NavigationControlExample" %>
 
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="Content/CSS/Common.css" rel="stylesheet" />
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="container">
-            <div class="logo">
-                <asp:Image ID="ImgLogo" CssClass="logo" runat="server" ImageUrl="~/Content/Images/background1.jpeg" />
-            </div>
-            <div class="sideBar">
-                <asp:LinkButton Text="Add New Product" ID="BtnAddNew" PostBackUrl="~/FrmAddNewProduct.aspx" runat="server" />
-                <br />
-                <asp:TreeView ID="TreeView1" runat="server">
+        <div>
+            <asp:TreeView ID="TreeView1" runat="server">
                 <Nodes>
-                    <asp:TreeNode Text="Home" Value="Home" NavigateUrl="~/HomePage.aspx">
+                    <asp:TreeNode Text="Home" Value="Home">
                         <asp:TreeNode Text="Electronics" Value="Electronics">
                             <asp:TreeNode NavigateUrl="~/Television.aspx" Text="Television" Value="Television"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/MobilePhone.aspx" Text="MobilePhone" Value="MobilePhone"></asp:TreeNode>
@@ -33,13 +24,6 @@
                     </asp:TreeNode>
                 </Nodes>
             </asp:TreeView>
-            </div>
-            <div class="content">
-                <asp:ContentPlaceHolder ID="Content" runat="server">
-
-                </asp:ContentPlaceHolder>
-            </div>
-            <div class="footer"></div>
         </div>
     </form>
 </body>

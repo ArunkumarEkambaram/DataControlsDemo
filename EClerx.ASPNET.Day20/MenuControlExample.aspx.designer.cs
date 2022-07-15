@@ -11,17 +11,8 @@ namespace EClerx.ASPNET.Day20
 {
 
 
-    public partial class Site1
+    public partial class MenuControlExample
     {
-
-        /// <summary>
-        /// head control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
         /// form1 control.
@@ -33,22 +24,22 @@ namespace EClerx.ASPNET.Day20
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// ImgLogo control.
+        /// SiteMapDataSource1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImgLogo;
+        protected global::System.Web.UI.WebControls.SiteMapDataSource SiteMapDataSource1;
 
         /// <summary>
-        /// BtnAddNew control.
+        /// Menu1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton BtnAddNew;
+        protected global::System.Web.UI.WebControls.Menu Menu1;
 
         /// <summary>
         /// TreeView1 control.
@@ -58,14 +49,5 @@ namespace EClerx.ASPNET.Day20
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TreeView TreeView1;
-
-        /// <summary>
-        /// Content control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Content;
     }
 }
